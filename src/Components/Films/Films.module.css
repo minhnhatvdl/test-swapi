@@ -1,0 +1,19 @@
+.blockFilms {
+    width: 350px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border-right: 1px solid var(--borderColor);
+    height: 100%;
+}
+.listFilmsHeader {
+    height: 50px;
+    border-bottom: 1px solid var(--borderColor);
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    color: var(--theme);
+}
+.listFilms {
+    height: calc(100% - 50px);
+    overflow: auto;
+}

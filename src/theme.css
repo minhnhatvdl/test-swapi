@@ -1,0 +1,36 @@
+html.animationColorTheme,
+html.animationColorTheme *,
+html.animationColorTheme *:before,
+html.animationColorTheme *:after {
+  transition: all 500ms;
+}
+html {
+  --theme: #ffc105; 
+  --backgroundColor: #fff;
+  --colorText: #212121;
+  --secondColorText: #7b7b7b;
+  --buttonText: #fff;
+  --borderColor: #efefef;
+  --activeBackgroundColor: #ffc105;
+  --shadowColor: rgba(204, 204, 204, 0.7);
+  --activeColor: #fff;
+  --secondActiveColor: #f1f3f5;
+  --loadingBackgroundColor: #f1f3f5;
+  --secondBackgroundColor: #f1f3f5;
+  --badgeColor: #212121;
+}
+html[data-theme="dark"] {
+  --theme: #ffc105;
+  --backgroundColor: #1a1a1d;
+  --colorText: #f1f3f5;
+  --secondColorText: rgba(255, 255, 255, 0.6);
+  --buttonText: #1a1a1d;
+  --borderColor: #292929;
+  --activeBackgroundColor: #ffc105;
+  --shadowColor: rgba(8, 8, 8, 0.7);
+  --activeColor: #000;
+  --secondActiveColor: #1a1a1d;
+  --loadingBackgroundColor: #1a1a1d;
+  --secondBackgroundColor: #000;
+  --badgeColor: #212121;  
+}
